@@ -1,9 +1,13 @@
 import './App.css';
+import TextField from './components/TextField';
+import Topbar from './components/Topbar';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className='flex gap-1'>
+      <Topbar leftLabel="Create Job" rightLabel="Step 1" />
+      <TextField label="Job Title" placeHolder="ex.UI UX Designer" className="gap-1" />
+      <TextField label="Job Title" placeHolder="ex.UI UX Designer" className="gap-1" />
     </div>
   );
 }
