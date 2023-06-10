@@ -1,9 +1,10 @@
 import React from 'react';
+import { twMerge } from 'tailwind-merge';
 
-const Button = ({ label, className }) => {
+const Button = ({ children, className }) => {
   return (
-    <button className={className}>
-      {label}
+    <button className={twMerge('rounded', className)}>
+      {children}
     </button>
   )
 }
