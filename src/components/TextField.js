@@ -1,11 +1,11 @@
 import React from 'react';
 import { twMerge } from 'tailwind-merge';
 
-const TextField = ({ label, placeHolder, className, labelCSS, inputCSS }) => {
+const TextField = ({ label, required, placeHolder, className, labelCSS, inputCSS }) => {
   return (
     <div className={twMerge('w-full flex flex-col', className)}>
-      <h1 className={twMerge('block', labelCSS)}>{label}&nbsp;</h1>
-      <input className={twMerge('border border-[#E6E6E6] rounded', inputCSS)} type="text" placeholder={placeHolder} />
+      <h1 className={twMerge('block', labelCSS)}>{label}{required&&<span className='text-error'>*</span>}&nbsp;</h1>
+      <input className={twMerge('border border-card_border rounded', inputCSS)} type="text" placeholder={placeHolder} />
     </div>
   );
 };
