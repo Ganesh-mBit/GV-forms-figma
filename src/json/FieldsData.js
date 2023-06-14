@@ -44,7 +44,7 @@ export const JOB_OPENINGS = [
       { desc: '51-200 employees', className: 'text-font_dark' }
     ],
     buttonLabel: 'Apply Now',
-    buttonCSS: 'bg-primary text-font_white',
+    buttonCSS: 'bg-primary text-font_white font-medium',
   },
   {
     imgUrl: './images/logo.png',
@@ -58,7 +58,7 @@ export const JOB_OPENINGS = [
       { desc: '51-200 employees', className: 'text-font_dark' }
     ],
     buttonLabel: 'External Apply',
-    buttonCSS: 'bg-card_bg text-primary outline outline-1 outline-primary',
+    buttonCSS: 'bg-card_bg text-primary outline outline-1 outline-primary font-medium',
   },
   {
     imgUrl: './images/logo.png',
@@ -72,7 +72,7 @@ export const JOB_OPENINGS = [
       { desc: '51-200 employees', className: 'text-font_dark' }
     ],
     buttonLabel: 'External Apply',
-    buttonCSS: 'bg-card_bg text-primary outline outline-1 outline-primary',
+    buttonCSS: 'bg-card_bg text-primary outline outline-1 outline-primary font-medium',
   },
   {
     imgUrl: './images/logo.png',
@@ -85,7 +85,7 @@ export const JOB_OPENINGS = [
       { desc: 'INR (₹) 30,000 - 50,000 / Month', className: 'text-font_dark' },
       { desc: '51-200 employees', className: 'text-font_dark' }
     ],
-    buttonLabel: 'External Apply',
-    buttonCSS: 'bg-primary text-font_white',
+    buttonLabel: 'Apply Now',
+    buttonCSS: 'bg-primary text-font_white font-medium',
   }
 ];
